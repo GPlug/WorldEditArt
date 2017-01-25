@@ -74,7 +74,7 @@ class WorldEditArt extends PluginBase{
 	}
 
 	public function onLoad(){
-		if(!in_array($this->getServer()->getName(), ["PocketMine-MP", "PocketMine-Soft"])){
+		if(!in_array($this->getServer()->getName(), ["Genisys", "iTX Technologies LLC"])){
 			$this->getLogger()->critical("WorldEditArt uses sophisticated mechanisms in PocketMine-MP. Therefore, it can only be used on official PocketMine versions.");
 			throw new \RuntimeException;
 		}
